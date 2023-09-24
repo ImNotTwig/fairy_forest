@@ -1,0 +1,139 @@
+"attribute"                   = { fg = "blue"         , modifiers = ["italic"] }
+"namespace"                   = { fg = "purple"       , modifiers = ["italic"] }
+
+"keyword"                     = "blue"
+"keyword.control.conditional" = { fg = "purple"       , modifiers = ["italic"] }
+"keyword.directive"           = "magenta" # -- preprocessor comments (#if in C)
+
+"punctuation"                 = "gray07"
+"punctuation.delimiter"       = "yellow"
+
+"operator"                    = "blue"
+"special"                     = "yellow"
+
+"variable"                    = { fg = "fg" }
+"variable.builtin"            = "bright_blue"
+"variable.parameter"          = { fg = "white"         , modifiers = ["italic"] }
+"variable.other.member"       = "cyan"
+
+"type"                        = "cyan"
+"type.builtin"                = "magenta"
+"type.enum.variant"           = "bright_green"
+
+"constructor"                 = "yellow"
+
+"function"                    = { fg = "green"         , modifiers = ["italic"] }
+"function.macro"              = "bright_cyan"
+"function.builtin"            = "green"
+
+"tag"                         = "string"
+"comment"                     = { fg = "beige"         , modifiers = ["italic"] }
+
+"string"                      = "string"
+"string.regexp"               = "green"
+"string.special"              = "yellow"
+
+"constant"                    = "red"
+"constant.builtin"            = "red"
+"constant.numeric"            = "yellow"
+"constant.character.escape"   = "cyan"
+
+# used for lifetimes
+"label"                       = "yellow"
+
+"markup.heading.marker"       = { fg = "gray06" }
+"markup.heading"              = { fg = "bright_blue"   , modifiers = ["bold"] }
+"markup.list"                 = "gray06"
+"markup.bold"                 = { modifiers = ["bold"] }
+"markup.italic"               = { modifiers = ["italic"] }
+"markup.link.url"             = { fg = "green"         , modifiers = ["underlined"] }
+"markup.link.text"            = { fg = "blue"          , modifiers = ["italic"] }
+"markup.raw"                  = "yellow"
+
+"diff.plus"                   = "bright_green"
+"diff.minus"                  = "red"
+"diff.delta"                  = "bright_blue"
+
+"ui.virtual.wrap"             = "beige"
+
+"ui.background"               = { bg = "bg" }
+"ui.background.separator"     = { fg = "fg" }
+
+"ui.linenr"                   = { fg = "gray04" }
+"ui.linenr.selected"          = { fg = "fg" }
+
+"ui.statusline"               = { fg = "status_line_fg", bg = "gray01" }
+"ui.statusline.inactive"      = { fg = "fg"            , bg = "gray01" ,  modifiers = ["dim"] }
+"ui.statusline.normal"        = { fg = "bg"            , bg = "cyan"   ,  modifiers = ["bold"] }
+"ui.statusline.insert"        = { fg = "bg"            , bg = "blue"   ,  modifiers = ["bold"] }
+"ui.statusline.select"        = { fg = "bg"            , bg = "magenta",  modifiers = ["bold"] }
+
+"ui.popup"                    = { bg = "gray01" }
+"ui.window"                   = { fg = "gray02" }
+"ui.help"                     = { bg = "gray01"        , fg = "white" }
+
+"ui.text"                     = { fg = "fg" }
+"ui.text.focus"               = { fg = "fg" }
+
+"ui.virtual"                  = { fg = "gray02" }
+"ui.virtual.ruler"            = { bg = "gray02" }
+"ui.virtual.indent-guide"     = { fg = "gray02" }
+"ui.virtual.inlay-hint"       = { fg = "gray03"        , modifiers = ["bold", "underlined"] }
+
+
+"ui.selection"                = { bg = "gray03" }
+"ui.selection.primary"        = { bg = "gray03" }
+
+"ui.cursor"                   = { fg = "bg"            , bg = "gray07" }
+"ui.cursor.match"             = { fg = "yellow"        , modifiers = ["bold", "underlined"] }
+"ui.cursorline.primary"       = { bg = "gray01" }
+
+"ui.highlight"                = { bg = "gray02" }
+
+"ui.menu"                     = { fg = "white"         , bg = "gray01" }
+"ui.menu.selected"            = { fg = "bright_white"  , bg = "gray03" }
+"ui.menu.scroll"              = { fg = "gray04"        , bg = "gray01" }
+
+diagnostic                    = { fg = "red"           , modifiers = ["underlined", "italic"] }
+
+warning                       = "yellow"
+error                         = "error"
+info                          = "bright_blue"
+hint                          = "bright_cyan"
+
+[palette]
+red                           = "#F8C8DC"
+magenta                       = "#F49AC2"
+bright_magenta                = "#F19FC0"
+error                         = "#FCA5A5"
+
+yellow                        = "#F5BBA1"
+
+green                         = "#BFD7b5"
+bright_green                  = "#BEE7c5"
+
+blue                          = "#8EB6F5"
+bright_blue                   = "#8EC4E5"
+cyan                          = "#C1E7E3"
+
+purple                        = "#C3B1E1"
+
+bg                            = "#0F1010"
+fg                            = "#C9C7CD"
+
+string                        = "#9998A8"
+
+status_line_fg                = "#CAC9DD"
+
+white                         = "#E1DBEB"
+bright_white                  = "#E1DBEB"
+
+beige                         = "#808080"
+bright_beige                  = "#A8A29E"
+
+gray01                        = "#1B1B1B"
+gray02                        = "#2A2A2A"
+gray03                        = "#3E3E43"
+gray04                        = "#57575F"
+gray06                        = "#9998A8"
+gray07                        = "#C1C0D4"
