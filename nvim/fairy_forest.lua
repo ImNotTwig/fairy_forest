@@ -44,6 +44,7 @@ Color.new('gray07',         '#C1C0D4')
 Group.new('LineNR'          , colors.gray03        , colors.none       , styles.NONE    )
 Group.new('CursorLineNR'    , colors.gray06        , colors.none       , styles.NONE    )
 Group.new('CursorLine'      , colors.none          , colors.gray02     , styles.NONE    )
+Group.new('Cursor'          , colors.white         , colors.white      , styles.bold    )
 
 Group.new('PmenuSel'        , colors.gray04        , colors.none       , styles.NONE    )
 Group.new('PmenuSbar'       , colors.foreground    , colors.none       , styles.NONE    )
@@ -82,7 +83,7 @@ Group.new('Search'          , colors.none          , colors.gray04     , styles.
 Group.new('Macro'           , colors.foreground)
 Group.new('PreProc'         , colors.foreground)
 Group.new('NormalFloat'     , colors.foreground)
-Group.new('MatchParen'      , colors.foreground    , colors.purple     , styles.bold    )
+Group.new('MatchParen'      , colors.foreground    , colors.none        , styles.italic  )
 
 Group.new('Directory'       , colors.foreground)
 Group.new('netrwList'       , colors.yellow)
