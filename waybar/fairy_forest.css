@@ -1,0 +1,35 @@
+@define-color red #F8C8DC;
+@define-color magenta #F49AC2;
+@define-color bright_magenta #F19FC0;
+@define-color error #FCA5A5;
+
+@define-color yellow #F5BBA1;
+
+@define-color green #BFD7B5;
+@define-color bright_green #BEE7C5;
+
+@define-color blue #8EB6F5;
+@define-color bright_blue #8EC4E5;
+@define-color cyan #C1E7E3;
+
+@define-color purple #C3B1E1;
+
+@define-color bg #0F1010;
+@define-color fg #C9C7CD;
+
+@define-color string #9998A8;
+
+@define-color status_line_fg #CAC9DD;
+
+@define-color white #E1DBEB;
+@define-color bright_white #E1DBEB;
+
+@define-color beige #808080;
+@define-color bright_beige #A8A29E;
+
+@define-color gray01 #1B1B1B;
+@define-color gray02 #2A2A2A;
+@define-color gray03 #3E3E43;
+@define-color gray04 #57575F;
+@define-color gray06 #9998A8;
+@define-color gray07 #C1C0D4;

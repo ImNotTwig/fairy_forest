@@ -1,0 +1,92 @@
+@define-color red #F8C8DC;
+@define-color magenta #F49AC2;
+@define-color bright_magenta #F19FC0;
+@define-color error #FCA5A5;
+
+@define-color yellow #F5BBA1;
+
+@define-color green #BFD7B5;
+@define-color bright_green #BEE7C5;
+
+@define-color blue #8EB6F5;
+@define-color bright_blue #8EC4E5;
+@define-color cyan #C1E7E3;
+
+@define-color purple #C3B1E1;
+
+@define-color bg #0F1010;
+@define-color fg #C9C7CD;
+
+@define-color string #9998A8;
+
+@define-color status_line_fg #CAC9DD;
+
+@define-color white #E1DBEB;
+@define-color bright_white #E1DBEB;
+
+@define-color beige #808080;
+@define-color bright_beige #A8A29E;
+
+@define-color gray01 #1B1B1B;
+@define-color gray02 #2A2A2A;
+@define-color gray03 #3E3E43;
+@define-color gray04 #57575F;
+@define-color gray06 #9998A8;
+@define-color gray07 #C1C0D4;
+
+* {
+  font-family: JetBrainsMono Nerd Font Mono;
+  font-size: 17px;
+  border-radius: 15px;
+}
+
+window {
+  margin: 5px;
+  background-color: #00000000;
+  border: 3px solid @red;
+  border-radius: 15px;
+}
+
+#outer-box {
+  margin: 4px;
+  border-radius: 15px;
+  background-color: @bg;
+}
+
+#input {
+  margin: 10px 10px 20px 10px;
+  background-color: @gray02;
+  border: 2px solid @red;
+  color: @fg;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+#inner-box {
+  margin: 0px 10px 50px 10px;
+  border-radius: 0px;
+  background-color: @bg;
+}
+
+#scroll {
+  margin: 0px 0px;
+  border-radius: 8px;
+  border: none;
+  color: @fg;
+}
+
+#text {
+  margin: 2px;
+  color: @gray05;
+}
+
+#entry {
+  border: none;
+  border-radius: 8px;
+  color: @fg;
+}
+
+#entry:selected {
+  background-color: @gray02;
+  color: @bg;
+}
